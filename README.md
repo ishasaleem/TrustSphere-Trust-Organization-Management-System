@@ -55,6 +55,31 @@ It includes donations, beneficiaries, events, analytics, and system settings —
 - Monthly donation growth graph
 
 ---
+## 📸 Screenshots
+
+### 🏠 Landing Page
+![Landing Page](./src/assets/image1.PNG)
+
+### 📊 Dashboard
+![Dashboard](./src/assets/image2.PNG)
+
+### 💰 Donations
+![Donations](./src/assets/image3.PNG)
+
+### 👥 Beneficiaries
+![Beneficiaries](./src/assets/image4.PNG)
+
+### 📅 Events
+![Events](./src/assets/image5.PNG)
+
+### 🔍 Search Page
+![Search](./src/assets/image6.PNG)
+
+### ⚙ Settings
+![Settings](./src/assets/image7.PNG)
+
+### 📱 Overview
+![Overview](./src/assets/image8.PNG)
 
 ## 🛠 Tech Stack
 
