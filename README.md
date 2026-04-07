@@ -107,33 +107,6 @@ src/
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Landing Page
-![Landing Page](./assets/image1.PNG)
-
-### 📊 Dashboard
-![Dashboard](./assets/image2.PNG)
-
-### 💰 Donations
-![Donations](./assets/image3.PNG)
-
-### 👥 Beneficiaries
-![Beneficiaries](./assets/image4.PNG)
-
-### 📅 Events
-![Events](./assets/image5.PNG)
-
-### 🔍 Search Page
-![Search](./assets/image6.PNG)
-
-### ⚙ Settings
-![Settings](./assets/image7.PNG)
-
-### 📱 UI Overview
-![Overview](./assets/image8.PNG)
-
----
 
 ## ⚙ Installation & Setup
 
