@@ -1,93 +1,70 @@
+# 🌍 TrustSphere – Trust Organization Management System
 
-# 🌐 TrustSphere – Trust Organization Management System
-
-A modern, responsive **frontend web application** built with React.js for managing trust organization operations such as donations, beneficiaries, events, and internal administration.
-
-
-## 👨‍💻 Developer
-
-**Isha Saleem**  
-Frontend Developer | React.js Enthusiast  
+## 📌 Full Stack Devs Internship  
 
 ---
 
-## 📌 Project Overview
+## 🚀 Project Description
 
-**TrustSphere** is a fully functional frontend dashboard system designed to simulate real-world trust organization management.
-
-It allows users to:
-- Manage donations
-- Track beneficiaries
-- Organize events
-- Search and filter records
-- Control application settings
-
-All data is handled using **React state management and Local Storage** (no backend required).
+TrustSphere is a React-based dashboard system for managing a trust organization.  
+It includes donations, beneficiaries, events, analytics, and system settings — all built as a single-page application using React Router and Context API.
 
 ---
 
-## 🛠️ Tech Stack
-
-- HTML5
-- CSS3
-- Bootstrap 5
-- Tailwind CSS
-- React JS (v18+)
-- React Router DOM
-- React Hooks (useState, useEffect)
-- Local Storage API
-
----
-
-## ✨ Key Features
+## ✨ Features
 
 ### 🏠 Landing Page
-- Professional introduction to TrustSphere
+- Modern UI with Trust branding
+- Donation analytics chart (Recharts)
+- Dark/light mode toggle
 - Navigation to dashboard
-- Clean branding and UI
 
-### 📊 Dashboard
-- Summary cards for:
-  - Total Donations
-  - Active Beneficiaries
-  - Upcoming Events
-- Clean and responsive layout
+### 📊 Dashboard System
+- Sidebar navigation (fixed layout)
+- Navbar + Footer layout
+- Fully responsive structure
 
-### 💰 Donation Management (CRUD)
-- Add donations (name, amount, purpose, date)
-- View donation list
-- Delete donations
-- Data saved in local storage
+### 💰 Donations Module
+- Add / view / delete donations
+- Stored using LocalStorage
+- Fields: donor name, amount, purpose, date
 
-### 🤝 Beneficiary Management (CRUD)
-- Add beneficiary details
-- Delete beneficiaries
-- Categorization support
+### 👥 Beneficiaries Module
+- Add beneficiaries with full details:
+  - Name, Age, City
+  - Need type (Medical / Education / etc.)
+  - Status (Active / Pending / Rejected)
+- Table-based UI with badges
 
-### 📅 Event Management (CRUD)
-- Create events with title, date, location, description
--  delete events
-- Organized event tracking
+### 📅 Events Module
+- Create / edit / delete events
+- Fields: title, date, location, description
 
-### 🔍 Search & Filter
-- Search across all modules
-- Filter by category, type, or date
+### 🔍 Search System
+- Global search across all modules
+- Filter-based results
 
-### ⚙️ Settings Page
-- Theme toggle (light/dark optional)
-- Clear all stored data
-- Manage preferences
+### ⚙ Settings Page
+- Reset system (clears localStorage)
+- Clean UI for system control
 
 ---
 
-## ⚙️ Core Functionalities
+## 📊 Data Visualization
+- Recharts used for donation analytics
+- Monthly donation growth graph
 
-- ✅ Full CRUD operations (Create, Read, Update, Delete)
-- ✅ React Router DOM navigation
-- ✅ Local Storage persistence
-- ✅ Component-based architecture
-- ✅ Responsive UI (Mobile + Desktop)
-- ✅ Clean and reusable components
+---
+
+## 🛠 Tech Stack
+
+- React JS
+- React Router DOM
+- Bootstrap 5
+- Context API
+- Recharts
+- LocalStorage API
+- CSS3
 
 ---
 
@@ -95,14 +72,25 @@ All data is handled using **React state management and Local Storage** (no backe
 
 
 src/
-│── components/
-│── layout/
-│ ├── DashboardLayout.jsx
-│ ├── Navbar.jsx
+├── assets/
+│ ├── image1.png
+│ ├── image2.png
+│ ├── image3.png
+│ ├── image4.png
+│ ├── image5.png
+│ ├── image6.png
+│ ├── image7.png
+│ ├── image8.png
+│
+├── components/
 │ ├── Sidebar.jsx
+│ ├── Navbar.jsx
 │ ├── Footer.jsx
 │
-│── pages/
+├── layout/
+│ ├── DashboardLayout.jsx
+│
+├── pages/
 │ ├── LandingPage.jsx
 │ ├── DashboardPage.jsx
 │ ├── DonationPage.jsx
@@ -111,32 +99,57 @@ src/
 │ ├── SearchPage.jsx
 │ ├── SettingsPage.jsx
 │
-│── context/
-│── App.js
-│── main.jsx
+├── context/
+│ ├── AppContext.jsx
+│
+└── App.jsx
 
 
 ---
 
-## 🧠 State Management
+## 📸 Screenshots
 
-- React Hooks (`useState`, `useEffect`)
-- Context API (if implemented)
-- Local Storage for data persistence
+### 🏠 Landing Page
+![Landing Page](./assets/image1.png)
+
+### 📊 Dashboard
+![Dashboard](./assets/image2.png)
+
+### 💰 Donations
+![Donations](./assets/image3.png)
+
+### 👥 Beneficiaries
+![Beneficiaries](./assets/image4.png)
+
+### 📅 Events
+![Events](./assets/image5.png)
+
+### 🔍 Search Page
+![Search](./assets/image6.png)
+
+### ⚙ Settings
+![Settings](./assets/image7.png)
+
+### 📱 UI Overview
+![Overview](./assets/image8.png)
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙ Installation & Setup
 
 ```bash
-# Clone repository
 git clone https://github.com/your-username/trustsphere.git
-
-# Move into project directory
 cd trustsphere
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
+🌐 Project Highlights
+Multi-page React dashboard
+CRUD operations (Donations, Beneficiaries, Events)
+LocalStorage persistence
+Recharts analytics
+Fully responsive UI
+Clean modular structure
+👨‍💻 Developer
+
+Isha Saleem
+Frontend Developer | React.js Enthusiast
