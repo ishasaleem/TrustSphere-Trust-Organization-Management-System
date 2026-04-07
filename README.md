@@ -78,7 +78,7 @@ It includes donations, beneficiaries, events, analytics, and system settings —
 ### ⚙ Settings
 ![Settings](./src/assets/image7.PNG)
 
-### 📱 Overview
+### 📱 Overview Footer
 ![Overview](./src/assets/image8.PNG)
 
 ## 🛠 Tech Stack
