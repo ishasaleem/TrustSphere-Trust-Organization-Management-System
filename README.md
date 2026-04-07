@@ -1,6 +1,6 @@
 # 🌍 TrustSphere – Trust Organization Management System
 
-## 📌 Full Stack Devs Internship  
+## 📌 FRONTEND Devs Internship  
 
 ---
 
