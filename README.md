@@ -110,28 +110,28 @@ src/
 ## 📸 Screenshots
 
 ### 🏠 Landing Page
-![Landing Page](./assets/image1.png)
+![Landing Page](./assets/image1.PNG)
 
 ### 📊 Dashboard
-![Dashboard](./assets/image2.png)
+![Dashboard](./assets/image2.PNG)
 
 ### 💰 Donations
-![Donations](./assets/image3.png)
+![Donations](./assets/image3.PNG)
 
 ### 👥 Beneficiaries
-![Beneficiaries](./assets/image4.png)
+![Beneficiaries](./assets/image4.PNG)
 
 ### 📅 Events
-![Events](./assets/image5.png)
+![Events](./assets/image5.PNG)
 
 ### 🔍 Search Page
-![Search](./assets/image6.png)
+![Search](./assets/image6.PNG)
 
 ### ⚙ Settings
-![Settings](./assets/image7.png)
+![Settings](./assets/image7.PNG)
 
 ### 📱 UI Overview
-![Overview](./assets/image8.png)
+![Overview](./assets/image8.PNG)
 
 ---
 
